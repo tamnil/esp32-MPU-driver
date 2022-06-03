@@ -1,7 +1,7 @@
 set(COMPONENT_SRCS
     "src/MPU.cpp")
 set(COMPONENT_ADD_INCLUDEDIRS "include")
-set(COMPONENT_REQUIRES "I2Cbus")
+set(COMPONENT_REQUIRES "I2Cbus" "SPIbus")
 
 register_component()
 
